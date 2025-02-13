@@ -149,10 +149,10 @@ button {
 /* --banner-- */
 .banner {
 	background: #2e2f42;
+	padding: 188px 0;
 }
 
 .banner .container {
-	padding: 188px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -179,7 +179,7 @@ button {
 	color: #fff;
 	cursor: pointer;
 	border-radius: 4px;
-
+	border: none;
 	min-width: 169px;
 	height: 56px;
 }
@@ -192,8 +192,8 @@ button {
 
 /* ---keypoints */
 
-.container-general {
-	padding: 120px 15px;
+.keypoints {
+	padding: 120px 0;
 }
 
 .keypoints-list {
@@ -224,6 +224,7 @@ button {
 /* about our team */
 .about {
 	background: #f4f4fd;
+	padding: 120px 0;
 }
 
 .about-title {
@@ -261,6 +262,7 @@ button {
 
 .list-cart-description {
 	padding: 32px 0;
+	border-radius: 0px 0px 4px 4px;
 }
 
 .about-item-text {
@@ -272,6 +274,10 @@ button {
 }
 
 /* ------portfolio */
+.portfolio {
+	padding: 120px 0;
+}
+
 .portfolio-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -321,11 +327,9 @@ button {
 /* footer */
 .footer {
 	background: #2e2f42;
+	padding: 100px 0
 }
 
-.footer-container {
-	padding: 100px 15px;
-}
 
 .footer-link {
 	font-family: "Raleway", sans-serif;
@@ -335,7 +339,7 @@ button {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
-	padding-bottom: 16px;
+	margin-bottom: 16px;
 	display: inline-block;
 }
 
