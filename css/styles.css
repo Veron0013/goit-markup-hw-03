@@ -70,12 +70,12 @@ button {
 
 .header-nav {
 	display: flex;
+	align-items: center;
 }
 
 .header-nav-list {
 	display: flex;
 	gap: 40px;
-	align-items: center;
 }
 
 .header-nav-link {
